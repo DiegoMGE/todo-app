@@ -1,0 +1,36 @@
+{
+  "name": "community-tesseract",
+  "version": "1.0.0",
+  "description": "Fundamentals Final Project",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoMGE/cc-infinity-gauntlet-project.git"
+  },
+  "keywords": [
+    "Node.JS",
+    "JavaScript",
+    "SQLite",
+    "Express.js"
+  ],
+  "author": "Diego",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DiegoMGE/cc-infinity-gauntlet-project/issues"
+  },
+  "homepage": "https://github.com/DiegoMGE/cc-infinity-gauntlet-project#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
